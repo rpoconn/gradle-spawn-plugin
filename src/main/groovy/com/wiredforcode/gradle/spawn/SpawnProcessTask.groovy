@@ -69,6 +69,7 @@ class SpawnProcessTask extends DefaultSpawnTask {
                 isReady = true
             }
         }
+        reader.close();
         isReady
     }
 
